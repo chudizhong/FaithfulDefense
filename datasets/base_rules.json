@@ -1,0 +1,19 @@
+{
+
+    "german_credit": ["OtherInstallmentPlans == 2 AND CreditHistory == 1",
+    "CreditAmount > 7487.0 AND DurationMonth <= 24.0",
+    "StatusCheckingAccount == 0 AND CreditHistory == 0",
+    "StatusCheckingAccount == 0 AND CreditHistory == 1",
+    "StatusCheckingAccount == 0 AND DurationMonth > 30.0",
+    "StatusCheckingAccount == 1 AND CreditHistory == 0",
+    "OtherInstallmentPlans == 0 AND PresentResidence > 1.0 AND Age <= 27.0",
+    "DurationMonth > 12.0 AND PresentEmployment == 0 AND PresentResidence <= 2.0",
+    "DurationMonth > 15.0 AND PresentEmployment == 1 AND Housing == 0",
+    "CreditHistory == 2 AND SavingAccountOrBond == 1 AND DurationMonth > 24.0 AND StatusCheckingAccount == 1",
+    "PersonalStatusAndSex == 1 AND Purpose == 0 AND PresentEmployment == 1 AND Age <= 27.0",
+    "PersonalStatusAndSex == 1 AND Purpose == 0 AND PresentEmployment == 2 AND Age <= 27.0",
+    "PersonalStatusAndSex == 1 AND Purpose == 5 AND PresentEmployment == 1 AND Age <= 27.0",
+    "PersonalStatusAndSex == 1 AND Purpose == 5 AND PresentEmployment == 2 AND Age <= 27.0"
+    ]
+
+}
